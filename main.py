@@ -43,9 +43,6 @@ pixel_config={
     "quantity":input("How many hours have you studied today ?: ")
 }
 
-# response=requests.post(url=PIXELA_CREATION_ENDPOINT,json=pixel_config,headers=header)
-# print(response.text)
-
-delete_pixel_endpoint=f"{PIXELA_CREATION_ENDPOINT}/{TODAY.strftime('%Y%m%d')}"
-response=requests.delete(url=delete_pixel_endpoint,headers=header)
+response=requests.post(url=PIXELA_CREATION_ENDPOINT,json=pixel_config,headers=header)
 print(response.text)
+
