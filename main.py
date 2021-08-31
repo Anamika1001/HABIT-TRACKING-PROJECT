@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 PIXELA_ENDPOINT="https://pixe.la/v1/users"
-USERNAME="anamika"
+USERNAME=Your_Name
 TOKEN=Your_Own_Token
 
 users_paramas={
