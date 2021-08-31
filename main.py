@@ -3,7 +3,7 @@ from datetime import datetime
 
 PIXELA_ENDPOINT="https://pixe.la/v1/users"
 USERNAME="anamika"
-TOKEN="hs23hdkcjnvmsn"
+TOKEN=Your_Own_Token
 
 users_paramas={
     "token":TOKEN,
